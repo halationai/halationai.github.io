@@ -30,6 +30,62 @@
             text-decoration: none; /* Remove underline */
             color: inherit; /* Inherit color from parent */
         }
+
+        @font-face {
+        font-family: 'Canela-ThinItalic';
+        src: url('fonts/Canela-ThinItalic.eot?#iefix') format('embedded-opentype'),  url('fonts/Canela-ThinItalic.otf')  format('opentype'),
+                url('fonts/Canela-ThinItalic.woff') format('woff'), url('fonts/Canela-ThinItalic.ttf')  format('truetype'), url('fonts/Canela-ThinItalic.svg#Canela-ThinItalic') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+        @font-face {
+        font-family: 'Canela-Thin';
+        src: url('fonts/Canela-Thin.eot?#iefix') format('embedded-opentype'),  url('fonts/Canela-Thin.otf')  format('opentype'),
+                url('fonts/Canela-Thin.woff') format('woff'), url('fonts/Canela-Thin.ttf')  format('truetype'), url('fonts/Canela-Thin.svg#Canela-Thin') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+        .canela-thin {
+        color: black;
+        font-size: 4rem;
+        font-family: 'Canela-Thin' !important;
+        }
+
+        .canela-thin-italic {
+        color: black;
+        font-size: 4rem;
+        font-family: 'Canela-ThinItalic' !important;
+        }
+        .trig {
+        font-family: 'Canela-ThinItalic';
+        font-weight: normal;
+        font-size: 2.4rem;
+        line-height: 1.0;
+        margin: 0;
+
+        }
+        .trig span {
+            display: inline;
+            padding: 0.5rem 0.25rem 0;
+
+        }
+
+        .super {
+            font-family: 'Canela-Thin';
+            vertical-align: super;
+            font-weight: normal;
+            font-size: 1rem;
+            line-height: 1.0;
+            margin: 0;
+
+        }
+            .super span {
+            display: inline;
+            padding: 0.5rem 0.25rem 0;
+
+            }
     </style>
 </head>
 <body>
@@ -37,6 +93,10 @@
     <div class="center-container">
         <div style="font-size: 2em;"><a href="https://www.halation.ai" class="no-style-link">｡･:*˚:✧｡☾ ⋆*･ﾟ:⋆*･ﾟ halation.ai ｡･:*˚:✧｡☾ ⋆*･ﾟ:⋆*･ﾟ</a></div>
         <div style="font-size: 1em;"><a href="mailto:desk@halation.ai" class="no-style-link">contact us</a></div>
+
+
+        <span class="canela-thin">Pablo Picasso,<span class="trig"> Blue Period</span>
+            <span class="super">12111935</span></span></a>/
     </div>
 </body>
 </html>
